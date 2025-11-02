@@ -9,7 +9,7 @@ def main():
         hx = int(buf, 16)
       except ValueError:
         continue  # skip invalid hex
-      buf2 = parseHex_RV32I(buf)
+      buf2 = parseHex_RV32I(buf, upperCase=True)
       print(buf2)
       sys.stdout.flush()
 
