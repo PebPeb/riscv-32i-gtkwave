@@ -1,0 +1,3 @@
+[submodule "Compiler_RV32I"]
+	path = Compiler_RV32I
+	url = https://github.com/PebPeb/Compiler-RV32I.git
